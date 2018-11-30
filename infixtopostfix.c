@@ -1,3 +1,8 @@
+//NAME        :ROSHIN ROY
+//ROLL NO     :43
+//PROGRAM NO  :22
+//PROGRAM NAME:STACK:INFIX TO POSTFIX CONVERSION
+
 #include <stdio.h>
 
 int instackPriority(char symbol) {
@@ -60,3 +65,8 @@ int main () {
     printf("%c", stack[top--]);
   }
 }
+
+OUTPUT :
+ 
+Enter the infix expression : 124+32/6*5
+124326/5*+
