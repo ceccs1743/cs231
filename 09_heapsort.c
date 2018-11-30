@@ -1,3 +1,7 @@
+//NAME        :ROSHIN ROY
+//ROLL NO     :43
+//PROGRAM NO  :9
+//PROGRAM NAME:HEAPSORT
 #include<stdio.h>
 void main()
 {
@@ -49,4 +53,15 @@ void main()
 		for(i=0;i<n;i++)
 			printf("%d \t",heap[i]);
 }
-			
+
+OUTPUT :
+
+ Enter the no.of elements5
+
+ Enter the numbers:32
+14
+7
+45
+21
+Heap array:45   32      7       14      21
+ The sorted array is:7  14      21      32      45
