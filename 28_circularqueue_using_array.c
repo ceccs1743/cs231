@@ -1,3 +1,8 @@
+//NAME        :ROSHIN ROY
+//ROLL NO     :43
+//PROGRAM NO  :28
+//PROGRAM NAME:CIRCULAR QUEUE USING ARRAY
+
 #include <stdio.h>
 #define size 10
 int queue[size], front, rear;
@@ -71,3 +76,44 @@ int main() {
 		}
 	} while(choice != '4');
 }
+
+OUTPUT :
+
+
+        Queue using array
+1.Enqueue
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice : 1
+Enter data to be entered : 13
+
+        Queue using array
+1.Enqueue
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice : 1
+Enter data to be entered : 45
+
+        Queue using array
+1.Enqueue
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice : 1
+Enter data to be entered : 65
+
+        Queue using array
+1.Enqueue
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice : 3
+13:45:65:-:-:-:-:-:-:-:
+        Queue using array
+1.Enqueue
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice : 4
