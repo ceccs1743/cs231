@@ -1,3 +1,8 @@
+//NAME        :ROSHIN ROY
+//ROLL NO     :43
+//PROGRAM NO  :26
+//PROGRAM NAME:QUEUE USING ARRAY
+
 #include <stdio.h>
 
 int queue[100], n=100, front=-1, rear=-1;
@@ -58,3 +63,63 @@ int main() {
 		}
 	} while(choice != '4');
 }
+
+OUTPUT :
+
+
+        Queue using array
+1.Enqueu
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice : 1
+Enter data to be entered : 1
+
+        Queue using array
+1.Enqueu
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice : 1
+Enter data to be entered : 2
+
+        Queue using array
+1.Enqueu
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice : 1
+Enter data to be entered : 3
+
+        Queue using array
+1.Enqueu
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice : 1
+Enter data to be entered : 5
+
+        Queue using array
+1.Enqueu
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice : 2
+Deleted element : 1
+
+        Queue using array
+1.Enqueu
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice : 3
+2
+3
+5
+
+        Queue using array
+1.Enqueu
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice : 4
