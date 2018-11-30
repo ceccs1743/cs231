@@ -1,3 +1,9 @@
+
+//NAME        :ROSHIN ROY
+//ROLL NO     :43
+//PROGRAM NO  :21
+//PROGRAM NAME:REPRESENTATION OF ARITHMETIC EXPRESSION USING LINKED LIST
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -68,3 +74,8 @@ int main() {
 	
 	return (0);
 }
+
+OUTPUT :
+
+Enter arithmatic expression : 12+45/6*3
+Entered experssion : 12+45/6*3
