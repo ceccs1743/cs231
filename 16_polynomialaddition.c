@@ -1,3 +1,7 @@
+//NAME        :ROSHIN ROY
+//ROLL NO     :43
+//PROGRAM NO  :16
+//PROGRAM NAME:POLYNOMIAL ADDITION
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -134,3 +138,56 @@ int main() {
 	deleteAll(polynomial3);
 	return (0);
 }
+
+OUTPUT :
+
+ Polynomial 1
+Enter coefficient : 4
+Enter exponent : 2
+
+1. Add more terms
+2. Continue
+Enter your choice : 1
+
+Enter coefficient : 3
+Enter exponent : 1
+
+1. Add more terms
+2. Continue
+Enter your choice : 1
+
+Enter coefficient : 9
+Enter exponent : 0
+
+1. Add more terms
+2. Continue
+Enter your choice : 2
+
+        Polynomial 2
+Enter coefficient : 6
+Enter exponent : 2
+
+1. Add more terms
+2. Continue
+Enter your choice : 1
+
+Enter coefficient : 8
+Enter exponent : 1
+
+1. Add more terms
+2. Continue
+Enter your choice : 1
+
+Enter coefficient : 5
+Enter exponent : 0
+
+1. Add more terms
+2. Continue
+Enter your choice : 2
+
+
+Adding polynomials
+P(x) = 4x^2 + 3x^1 + 9
+Q(x) = 6x^2 + 8x^1 + 5
+Sum
+R(x) = 8x^2 + 9x^1 + 5
