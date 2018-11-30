@@ -1,3 +1,8 @@
+//NAME        :ROSHIN ROY
+//ROLL NO     :43
+//PROGRAM NO  :24
+//PROGRAM NAME:STACK:INFIX EXPRESSION EVALUATION
+
 #include <stdio.h>
 #include <stdlib.h>
 int power(int base, int exponent) {
@@ -83,3 +88,8 @@ int main() {
   }
   printf("Final result : %d\n", operandStack[0]);
 }
+
+OUTPUT :
+
+Enter the infix expression : 54+12/6*3
+Final result : 5
