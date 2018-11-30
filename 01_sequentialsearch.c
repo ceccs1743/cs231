@@ -1,7 +1,7 @@
 	//NAME        :ROSHIN ROY
 	//ROLL NO     :43
 	//PROGRAM NO  :1
-	//PROGRAM NAME:
+	//PROGRAM NAME:SEQUENTIAL SEARCH
 
 		#include <stdio.h>
 
