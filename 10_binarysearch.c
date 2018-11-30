@@ -1,3 +1,9 @@
+
+//NAME        :ROSHIN ROY
+//ROLL NO     :43
+//PROGRAM NO  :10
+//PROGRAM NAME:BINARYSEARCH
+
 #include <stdio.h>
 
 int selectionSort(int array[], int size) {
@@ -58,3 +64,21 @@ int main() {
 		printf("Element not found\n");
 	}
 }
+
+OUTPUT :
+
+Enter number of elements : 5
+Enter elements
+12
+45
+17
+18
+23
+Sorted array
+12
+17
+18
+23
+45
+Enter element to search : 23
+Element found at position 4
