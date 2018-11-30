@@ -1,3 +1,7 @@
+//NAME        :ROSHIN ROY
+//ROLL NO     :43
+//PROGRAM NO  :7
+//PROGRAM NAME:QUICKSORT:NON RECURSIVE
 #include <stdio.h>
 
 void swap(int *a, int *b) {
@@ -53,3 +57,16 @@ int main() {
 	quickSortIterative(array, 0, size-1);
 	printArray(array, size);
 }
+
+OUTPUT :
+
+Enter array elements
+9
+3
+4
+14
+Sorted Array
+3
+4
+9
+14
