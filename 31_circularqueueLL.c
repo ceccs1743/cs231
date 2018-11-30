@@ -1,3 +1,8 @@
+//NAME        :ROSHIN ROY
+//ROLL NO     :43
+//PROGRAM NO  :31
+//PROGRAM NAME:CIRCULAR QUEUE USING LL
+
 #include<stdio.h>
 #include<stdlib.h>
 #define que struct queue
@@ -116,3 +121,61 @@ break;
 }
 }
 }
+
+OUTPUT :
+
+       What do you want to do??
+1.Push
+2.Pop
+3.SizeOfQueue
+4.Display
+0.EXIT
+1
+What no. do you want to push in queue
+1
+
+       What do you want to do??
+1.Push
+2.Pop
+3.SizeOfQueue
+4.Display
+0.EXIT
+1
+What no. do you want to push in queue
+2
+
+       What do you want to do??
+1.Push
+2.Pop
+3.SizeOfQueue
+4.Display
+0.EXIT
+1
+What no. do you want to push in queue
+3
+
+       What do you want to do??
+1.Push
+2.Pop
+3.SizeOfQueue
+4.Display
+0.EXIT
+3
+Size of queue is 3
+
+       What do you want to do??
+1.Push
+2.Pop
+3.SizeOfQueue
+4.Display
+0.EXIT
+4
+Queue is -->> 1 2 3
+
+       What do you want to do??
+1.Push
+2.Pop
+3.SizeOfQueue
+4.Display
+0.EXIT
+0
