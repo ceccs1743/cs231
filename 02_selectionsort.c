@@ -1,38 +1,60 @@
-      #include <stdio.h>
+            //NAME        :ROSHIN ROY
+            //ROLL NO     :43
+            //PROGRAM NO  :2
+            //PROGRAM NAME:SE
 
-      int main()
-      {
-        int array[100], n, c, d, position, swap;
+            #include <stdio.h>
 
-        printf("Enter number of elements\n");
-        scanf("%d", &n);
+            int main()
+            {
+              int array[100], n, c, d, position, swap;
 
-        printf("Enter %d integers\n", n);
+              printf("Enter number of elements\n");
+              scanf("%d", &n);
 
-        for (c = 0; c < n; c++)
-          scanf("%d", &array[c]);
+              printf("Enter %d integers\n", n);
 
-        for (c = 0; c < (n - 1); c++)
-        {
-          position = c;
+              for (c = 0; c < n; c++)
+                scanf("%d", &array[c]);
 
-          for (d = c + 1; d < n; d++)
-          {
-            if (array[position] > array[d])
-              position = d;
-          }
-          if (position != c)
-          {
-            swap = array[c];
-            array[c] = array[position];
-            array[position] = swap;
-          }
-        }
+              for (c = 0; c < (n - 1); c++)
+              {
+                position = c;
 
-        printf("Sorted list in ascending order:\n");
+                for (d = c + 1; d < n; d++)
+                {
+                  if (array[position] > array[d])
+                    position = d;
+                }
+                if (position != c)
+                {
+                  swap = array[c];
+                  array[c] = array[position];
+                  array[position] = swap;
+                }
+              }
 
-        for (c = 0; c < n; c++)
-          printf("%d\n", array[c]);
+              printf("Sorted list in ascending order:\n");
 
-        return 0;
-      }
+              for (c = 0; c < n; c++)
+                printf("%d\n", array[c]);
+
+              return 0;
+            }
+
+      OUTPUT :
+
+      Enter number of elements
+      5
+      Enter 5 integers
+      12
+      45
+      3
+      61
+      32
+      Sorted list in ascending order:
+      3
+      12
+      32
+      45
+      61
