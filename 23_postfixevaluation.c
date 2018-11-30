@@ -1,3 +1,8 @@
+//NAME        :ROSHIN ROY
+//ROLL NO     :43
+//PROGRAM NO  :23
+//PROGRAM NAME:STACK:POSTFIX EXPRESSION EVALUATION
+
 #include <stdio.h>
 #include <stdlib.h>
 int power(int base, int exponent) {
@@ -47,3 +52,8 @@ int main() {
   }
   printf("%d\n", stack[top]);
 }
+
+OUTPUT :
+
+Enter the postfix expression : 12345/*+
+2
