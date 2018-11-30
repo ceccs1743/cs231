@@ -1,3 +1,8 @@
+//NAME        :ROSHIN ROY
+//ROLL NO     :43
+//PROGRAM NO  :1
+//PROGRAM NAME:SEQUENTIAL SEARCH
+
 #include <stdio.h>
 
 int sequentialSearch(int array[], int size, int element) {
@@ -32,3 +37,16 @@ int main() {
 		printf("Element not found\n");
 	}
 }
+
+OUTPUT :
+
+
+Enter number of elements : 5
+Enter elements
+12
+41
+32
+65
+23
+Enter element to search : 41
+Element found at position 2
